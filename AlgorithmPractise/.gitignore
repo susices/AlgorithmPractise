@@ -1,4 +1,6 @@
 # Build artifacts
+.vs/
+.vscode/
 bin/
 obj/
 
