@@ -4,6 +4,5 @@ using AlgorithmPractise.LeetCode;
 
 Console.WriteLine("Hello, World!");
 
-LeetCodeQ3 leetCodeQ3 = new LeetCodeQ3();
-var result =  leetCodeQ3.LengthOfLongestSubstring2("anviaj");
+var result =  new LeetCodeQ5().LongestPalindrome("cbbd");
 Console.WriteLine(result);
