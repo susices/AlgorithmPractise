@@ -4,5 +4,5 @@ using AlgorithmPractise.LeetCode;
 
 Console.WriteLine("Hello, World!");
 
-var result =  new LeetCodeQ5().LongestPalindrome("cbbd");
+var result =  new LeetCodeQ7().Reverse(-2147483648);
 Console.WriteLine(result);

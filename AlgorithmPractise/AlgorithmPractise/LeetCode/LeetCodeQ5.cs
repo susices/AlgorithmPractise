@@ -52,5 +52,4 @@ public class LeetCodeQ5
         }
         return s.Substring(maxLengthHead,maxLength);
     }
-    
 }
