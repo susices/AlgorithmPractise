@@ -1,0 +1,65 @@
+# Build artifacts
+bin/
+obj/
+
+# Visual Studio files
+*.user
+*.suo
+*.cache
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.sbr
+*.tlb
+*.tlh
+*.bak
+*.log
+*.pidb
+*.log
+*.obj
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.res
+*.idb
+*.pch
+*.sdf
+*.opensdf
+*.sln.docstates
+*.sln.bin
+
+# Resharper files
+_ReSharper*/
+*.ReSharper.user
+
+# NuGet packages
+packages/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+
+# Installshield output folder
+[Ee]xpress/
+
+# DocProject documentation
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/Html2
+DocProject/Help/html
+
+# Publish Web Output
+*.Publish.xml
+*.pubxml
+*.pubxml.user
