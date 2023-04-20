@@ -63,37 +63,37 @@
                 minute++;
             }
 
-        }
-        private static bool CheckAllInfected(int[][] grid, int m, int n)
-        {
-            for (var i = 0; i < m; i++)
+            bool CheckAllInfected(int[][] grid, int m, int n)
             {
-                for (var j = 0; j < n; j++)
+                for (var i = 0; i < m; i++)
                 {
-                    if (grid[i][j] == 1)
+                    for (var j = 0; j < n; j++)
                     {
-                        return false;
+                        if (grid[i][j] == 1)
+                        {
+                            return false;
+                        }
                     }
                 }
+                return true;
             }
-            return true;
-        }
-        private static void TryInfect(int[][] grid, int i, int j, int depth, ref bool infected)
-        {
-            if (i < 0 || i >= grid.Length)
+            void TryInfect(int[][] grid, int i, int j, int depth, ref bool infected)
             {
-                return;
+                if (i < 0 || i >= grid.Length)
+                {
+                    return;
+                }
+                if (j < 0 || j >= grid[0].Length)
+                {
+                    return;
+                }
+                if ((grid[i][j] & 1) == 0)
+                {
+                    return;
+                }
+                grid[i][j] = (depth + 1) * 2;
+                infected = true;
             }
-            if (j < 0 || j >= grid[0].Length)
-            {
-                return;
-            }
-            if ((grid[i][j] & 1) == 0)
-            {
-                return;
-            }
-            grid[i][j] = (depth + 1) * 2;
-            infected = true;
         }
     }
 }
