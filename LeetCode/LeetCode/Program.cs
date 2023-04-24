@@ -6,7 +6,7 @@ namespace LeetCode
     {
         public static void Main(string[] args)
         {
-            LeetCode91Fast.Run();
+            LeetCode482.Run();
             Console.ReadKey();
         }
     }

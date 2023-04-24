@@ -41,6 +41,7 @@
     <ItemGroup>
         <Compile Include="155\LeetCode155.cs" />
         <Compile Include="1971\LeetCode1971.cs" />
+        <Compile Include="482\LeetCode482.cs" />
         <Compile Include="91\LeetCode91.cs" />
         <Compile Include="91\LeetCode91Fast.cs" />
         <Compile Include="994\LeetCode994.cs" />

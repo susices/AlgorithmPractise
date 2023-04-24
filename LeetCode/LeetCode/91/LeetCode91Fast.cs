@@ -1,5 +1,7 @@
 ﻿using System;
 
+
+//并没有特别快，只是内存占用小了
 public class LeetCode91Fast
 {
     public static void Run()
