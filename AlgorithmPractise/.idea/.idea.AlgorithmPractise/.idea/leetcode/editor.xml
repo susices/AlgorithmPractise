@@ -80,6 +80,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[8]字符串转换整数 (atoi).cs">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[8]字符串转换整数 (atoi).md" />
+              <option name="frontendQuestionId" value="leetcode.cn8" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[8]字符串转换整数 (atoi).cs" />
+              <option name="titleSlug" value="string-to-integer-atoi" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[994]腐烂的橘子.cs">
           <value>
             <LeetcodeEditor>
