@@ -4,5 +4,11 @@ using AlgorithmPractise.LeetCode;
 
 
 
-var result =  new LeetCodeQ8().MyAtoi("  +  413");
-Console.WriteLine(result);
+
+Console.WriteLine(new LeetCodeQ10().IsMatch("aabbb",".*"));
+Console.WriteLine(new LeetCodeQ10().IsMatch("aabbb",".*abbb"));
+Console.WriteLine(new LeetCodeQ10().IsMatch("aabbb",".*b"));
+Console.WriteLine(new LeetCodeQ10().IsMatch("aabbb","a.*b"));
+Console.WriteLine(new LeetCodeQ10().IsMatch("aabbb","a.*"));
+Console.WriteLine(new LeetCodeQ10().IsMatch("aabbb","c*a*b*"));
+Console.WriteLine(new LeetCodeQ10().IsMatch("aab","c*a*bc"));
