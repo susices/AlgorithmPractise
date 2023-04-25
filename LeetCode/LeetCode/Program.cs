@@ -7,7 +7,7 @@ namespace LeetCode
     {
         public static void Main(string[] args)
         {
-            LeetCode1.Run();
+            Console.WriteLine(2%10);
             Console.ReadKey();
         }
     }
